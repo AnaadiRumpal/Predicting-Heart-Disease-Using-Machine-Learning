@@ -21,13 +21,17 @@ Medical Parameters: Resting blood pressure, cholesterol levels, fasting blood su
 ## 5. Tools and Technologies Used:
 The project utilizes Python-based libraries for data analysis, visualization, and machine learning:
 
-### Data Analysis: Pandas, NumPy
+### Data Analysis: 
+Pandas, NumPy
 
-### Visualization: Matplotlib, Seaborn
+### Visualization: 
+Matplotlib, Seaborn
 
-### Machine Learning Models: Logistic Regression, K-Nearest Neighbors Classifier, Random Forest Classifier from Scikit-Learn
+### Machine Learning Models: 
+Logistic Regression, K-Nearest Neighbors Classifier, Random Forest Classifier from Scikit-Learn
 
-### Model Evaluation: Cross-validation, confusion matrix, precision, recall, F1-score
+### Model Evaluation: 
+Cross-validation, confusion matrix, precision, recall, F1-score
 
 ## 6. Data Exploration and Preprocessing:
 
@@ -37,13 +41,16 @@ Converted categorical variables into numerical format as needed.
 
 ## 7. Modeling and Evaluation:
 
-### Model Selection: Evaluated multiple machine learning algorithms (Logistic Regression, KNN, Random Forest) to determine the best-performing model for predicting heart disease.
+### Model Selection: 
+Evaluated multiple machine learning algorithms (Logistic Regression, KNN, Random Forest) to determine the best-performing model for predicting heart disease.
 
-### Model Training: Split the data into training and testing sets (80% training, 20% testing) using random seed for reproducibility.
+### Model Training: 
+Split the data into training and testing sets (80% training, 20% testing) using random seed for reproducibility.
 
-### Model Training and Evaluation: Trained each model on the training set and evaluated its performance on the test set using accuracy as the primary metric.
+### Model Training and Evaluation: 
+Trained each model on the training set and evaluated its performance on the test set using accuracy as the primary metric.
 
-###Model Comparison: Used  3 different machine learning models:
+### Model Comparison: Used  3 different machine learning models:
 'Logistic Regression': 0.8852459016393442,
  'KNN': 0.6885245901639344,
  'Random Forest': 0.8360655737704918
