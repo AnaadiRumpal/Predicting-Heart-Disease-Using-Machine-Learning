@@ -50,12 +50,14 @@ Split the data into training and testing sets (80% training, 20% testing) using 
 ### Model Training and Evaluation: 
 Trained each model on the training set and evaluated its performance on the test set using accuracy as the primary metric.
 
-### Model Comparison: Used  3 different machine learning models:
+### Model Comparison: 
+Used  3 different machine learning models:
 'Logistic Regression': 0.8852459016393442,
  'KNN': 0.6885245901639344,
  'Random Forest': 0.8360655737704918
 
-###Model Improvisation: Did Hypyterparameter tuning using 
+### Model Improvisation: 
+Did Hypyterparameter tuning using 
 - by hand 
 - RandomizedSearchCV on LogisticRegression()
 RandomForestClassifier() 
