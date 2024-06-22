@@ -43,11 +43,24 @@ Converted categorical variables into numerical format as needed.
 
 ### Model Training and Evaluation: Trained each model on the training set and evaluated its performance on the test set using accuracy as the primary metric.
 
+###Model Comparison: Used  3 different machine learning models:
+'Logistic Regression': 0.8852459016393442,
+ 'KNN': 0.6885245901639344,
+ 'Random Forest': 0.8360655737704918
+
+###Model Improvisation: Did Hypyterparameter tuning using 
+- by hand 
+- RandomizedSearchCV on LogisticRegression()
+RandomForestClassifier() 
+- GridSearchCV on LogisticRegression Model as it provided best score.
+
+
 ## 8. Results:
 
-Model Performance: Achieved 88.52% accuracy on the test set with the best-performing model Logistic Regression. Analysed result with confusion Matrix, cross validation with precision of 84.46%, precision 82.07%, recall 92.12% and f1 score of 86.73%.
+Model Performance: Achieved 88.52% accuracy on the test set with the best-performing model Logistic Regression. Analysed result with 
+confusion Matrix, 
+cross validation with precision of 84.46%, precision 82.07%, recall 92.12% and f1 score of 86.73%.
 
-### Key Insights: Identified [mention any important insights or patterns] during data exploration and modeling that contributed to the model's predictive performance.
 
 ## Conclusion:
 This project showcases the application of machine learning in healthcare, specifically in predicting heart disease based on patient data. The results underscore the potential of data-driven approaches to assist in early detection and management of cardiovascular conditions.
