@@ -1,5 +1,5 @@
 # Predicting-Heart-Disease-Using-Machine-Learning
-This project focuses on using machine learning and data science techniques to predict the presence of heart disease based on various medical attributes of patients.
+Hi, I am Anaadi Rumpal. This project focuses on using machine learning and data science techniques to predict the presence of heart disease based on various medical attributes of patients.
 
 ## 1. Problem Definition:
 The goal is to predict whether a patient has heart disease based on clinical parameters such as age, sex, cholesterol levels, and other medical attributes. This is a classification problem where the target variable is binary (1 for presence of heart disease, 0 for absence).
